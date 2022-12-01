@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        //Escape Sequences
+        //Use \n after a string to print each word on separate lines
+        System.out.print("Welcome\n");
+        System.out.print("Hello, World!\n");
+        System.out.print("Let's do this!");
     }
 }
