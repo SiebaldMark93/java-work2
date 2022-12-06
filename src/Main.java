@@ -28,5 +28,14 @@ public class Main {
         System.out.println("c\\folder\\pic");
         //Can also use single quotes inside the double "".
         System.out.println("The dog said 'woof', then sat down.");
+        //Call sample method here in order for it to print out.
+        sample();
+    }
+    //Method calling/ Invoking a method
+    //To tell the sample method when to run, you have to call it inside the main method.
+    public static void sample () {
+        System.out.println("Truck");
+        System.out.println("Car");
+        System.out.println("SUV");
     }
 }
