@@ -1,4 +1,7 @@
+package UserInputs;
+
 import java.util.Scanner;
+//Scanner is a class - must import the Scanner above.
 
 public class UserInput1 {
     public static void main(String[] args) {
