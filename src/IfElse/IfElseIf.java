@@ -46,5 +46,25 @@ public class IfElseIf {
         }
 
         //if starts first and else is always last in an if else statement.
+
+        /* || or operator
+         true  || true   - true
+         true  || false  - true
+         false || true   - true
+         false || false  - false */
+        /* && and operator
+         true  && true  - true
+         true  && false - false
+         false && true  - false
+         false && false - false*/
+
+        //using && operator
+
+        if (height > 130 && height < 210) {
+            System.out.println("Welcome aboard the ride!");
+        }
+        else {
+            System.out.println("You do not meet the height requirements, sorry.");
+        }
     }
 }
