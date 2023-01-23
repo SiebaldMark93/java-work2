@@ -18,5 +18,16 @@ public class ForLoop {
             System.out.println("Test");
             i++;
         }
+        System.out.println();
+
+        for (int x = 1; x <= 15; x++) {
+            System.out.println(x);
+        }
+        System.out.println();
+
+        //How it looks like with decrementing
+        for (int y = 700; y >= 500; y--) {
+            System.out.println(y);
+        }
     }
 }
