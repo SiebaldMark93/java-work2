@@ -6,7 +6,7 @@ public class Formatting {
         //Answer should be 1.8, but java uses floating point arithmetic
         System.out.println(4.5 - 2.7);
         //This format code does nothing
-        System.out.format("I have 3 rings", 5);
+//        System.out.format("I have 3 rings", 5);
         //by adding the %d and adding a number after the comma.  Results change.
         //%d is called a format specifier, it replaces with the specified integer value.
         //format supplies the method with two arguments separated by the comma inside the ().

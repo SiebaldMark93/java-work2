@@ -62,7 +62,7 @@ public class CodingChallengeThree {
         }
         else {
             System.out.println("Oops!  Sorry, guess again.");
-            System.out.println("Your second guess: ");
+            System.out.print("Your second guess: ");
 
             guess = scanner.nextInt();
             if (guess == randomNumber) {
